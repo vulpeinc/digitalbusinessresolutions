@@ -52,8 +52,24 @@ body.dark-mode .loading-screen {
 
 .loading-logo {
     height: auto;
-    max-width: 250px;
+    max-width: 540px;
     object-fit: contain;
+}
+
+.loading-logo-dark {
+    display: none;
+}
+
+.loading-logo-light {
+    display: block;
+}
+
+body.dark-mode .loading-logo-dark {
+    display: block;
+}
+
+body.dark-mode .loading-logo-light {
+    display: none;
 }
 
 .loading-bar-container {
@@ -122,7 +138,8 @@ nav {
     transition: opacity 0.3s;
     display: flex;
     align-items: center;
-    height: 50px;
+    height: auto;
+    min-height: 50px;
 }
 
 .logo:hover {
@@ -130,9 +147,9 @@ nav {
 }
 
 .logo-img {
-    height: 40px;
+    height: 120px;
     width: auto;
-    max-width: 250px;
+    max-width: 600px;
     object-fit: contain;
     transition: opacity 0.3s;
 }
@@ -276,7 +293,7 @@ main {
 }
 
 .hero .trust-item {
-    color: #D1D5DB;
+    color: #FFFFFF;
 }
 
 .hero .trust-icon {
@@ -824,8 +841,8 @@ body.dark-mode .footer-address p {
     }
 
     .logo-img {
-        max-width: 200px;
-        height: 35px;
+        max-width: 400px;
+        height: 80px;
     }
 
     .logo h1 {
@@ -863,7 +880,7 @@ body.dark-mode .footer-address p {
     }
 
     .loading-logo {
-        max-width: 200px;
+        max-width: 360px;
     }
 
     .loading-bar-container {
@@ -968,7 +985,7 @@ body.dark-mode .hero h1 {
 
 body.dark-mode .hero-subtitle,
 body.dark-mode .hero .trust-item {
-    color: #D1D5DB;
+    color: #FFFFFF;
 }
 
 body.dark-mode .hero .trust-icon {

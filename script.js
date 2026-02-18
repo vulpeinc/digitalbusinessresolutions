@@ -151,6 +151,14 @@ document.addEventListener('DOMContentLoaded', function() {
         }, 100);
     }
 
+    // Adiciona evento de clique no logo para ir para home
+    const logo = document.getElementById('logo-home');
+    if (logo) {
+        logo.addEventListener('click', function() {
+            switchPage('home');
+        });
+    }
+
     // Adiciona evento de clique em cada link de navegação do header
     navLinks.forEach(link => {
         link.addEventListener('click', function(e) {

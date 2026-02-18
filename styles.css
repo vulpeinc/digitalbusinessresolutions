@@ -828,6 +828,10 @@ body.dark-mode .footer-address p {
         height: 35px;
     }
 
+    .logo h1 {
+        font-size: 1.2rem;
+    }
+
     .hero-content,
     .section-with-image {
         grid-template-columns: 1fr;
